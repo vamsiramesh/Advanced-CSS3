@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to my portfolio. I'm a CS student passionate about web development.">
+    <title>Home - Vamsi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Vamsi's Portfolio</h1>
+
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button id="themeBtn">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h1>Hi, I'm Vamsi</h1>
+            <p>A Computer Science student building web experiences</p>
+            <a href="contact.html" class="btn">Get In Touch</a>
+        </section>
+
+        <!-- FEATURED PROJECTS -->
+        <section class="featured-projects projects">
+            <h2>Featured Projects</h2>
+
+            <article>
+                <h3>Portfolio Website</h3>
+                <p>Built with semantic HTML5 and accessibility best practices.</p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vamsi. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const themeBtn = document.getElementById("themeBtn");
+
+        themeBtn.addEventListener("click", function () {
+            document.body.classList.toggle("dark");
+        });
+    </script>
+
+</body>
+</html>
