@@ -1,2 +1,1 @@
-# Advanced-CSS3
-Responsive portfolio Website using HTML5, CSS3, Flexbox, CSS Grid, Media Queries, CSS Variables, and JavaScript with Dark Mode
+A responsive personal portfolio website built using HTML5, CSS3, Flexbox, CSS Grid, CSS Variables, Media Queries, and JavaScript. The project features semantic HTML, a mobile-first responsive design, dark mode, and a clean, user-friendly interface.
